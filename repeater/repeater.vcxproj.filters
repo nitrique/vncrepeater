@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="config.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="d3des.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="repeater.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="slots.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="sockets.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="thread.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="vncauth.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="d3des.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="repeater.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="rfb.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="rfbproto.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="slots.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="sockets.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="thread.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="version.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="vncauth.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+  </ItemGroup>
+</Project>
